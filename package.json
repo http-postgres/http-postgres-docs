@@ -1,8 +1,7 @@
 {
   "name": "http-postgres-docs",
-  "version": "1.0.0",
+  "version": "1.6.0",
   "description": "Documentation for HTTP PostgreSQL Gateway (http-postgres) - Persistent HTTP-to-PostgreSQL bridge for serverless and edge runtimes",
-  "private": true,
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
