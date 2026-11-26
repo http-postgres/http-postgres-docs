@@ -136,7 +136,7 @@ Solve direct database connection limits and distributed secret exposure with a s
 Quick Integration
 
 #description
-Execute queries from any serverless environment using standard `fetch()` in just a few lines of code.
+Execute queries from any serverless environment using standard `fetch()` in just a few lines of code. For a ready-to-use TypeScript client, install the [`@http-postgres/sdk`](https://www.npmjs.com/package/@http-postgres/sdk) package.
 
 ```typescript
 // Minimal serverless client with timeout handling

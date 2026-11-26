@@ -51,6 +51,8 @@ flowchart LR
 
 Query your private PostgreSQL cluster directly from any serverless environment using standard `fetch()`:
 
+For a ready-to-use TypeScript client, install the [`@http-postgres/sdk`](https://www.npmjs.com/package/@http-postgres/sdk) package.
+
 ```typescript
 // Zero native drivers, zero socket bindings
 export async function queryDatabase(sql: string, params: unknown[] = []) {
